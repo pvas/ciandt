@@ -33,12 +33,6 @@ public class RotaEntity extends BaseDao {
 			getConn().close();
 		} catch (SQLException e) {
 			e.printStackTrace();
-		} finally {
-			try {
-				getConn().close();
-			} catch (SQLException e) {
-				e.printStackTrace();
-			}
 		}
 	}
 
@@ -63,12 +57,6 @@ public class RotaEntity extends BaseDao {
 			getConn().close();
 		} catch (SQLException e) {
 			e.printStackTrace();
-		} finally {
-			try {
-				getConn().close();
-			} catch (SQLException e) {
-				e.printStackTrace();
-			}
 		}
 
 		return listaRotas;
@@ -95,12 +83,6 @@ public class RotaEntity extends BaseDao {
 			getConn().close();
 		} catch (SQLException e) {
 			e.printStackTrace();
-		} finally {
-			try {
-				getConn().close();
-			} catch (SQLException e) {
-				e.printStackTrace();
-			}
 		}
 
 		return listaRotas;

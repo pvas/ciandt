@@ -15,7 +15,7 @@ import br.com.ciandt.model.Rota;
 public class LogisticaClient {
 
 	public static void main(String[] args) {
-		String diretorio = "C:\\Documents and Settings\\Vitor\\Desktop\\PV\\malha.txt";
+		String diretorio = "C:\\PV\\malha.txt";
 		try {
 
 			ManipuladorDeArquivos arquivos = new ManipuladorDeArquivos();
